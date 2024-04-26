@@ -1,30 +1,31 @@
-# todo-app
+# Todo List Application
 
-This template should help get you started developing with Vue 3 in Vite.
+This Todo List application is built with Vue 3 using Vite, providing a simple yet powerful interface for managing tasks effectively.
 
-## Recommended IDE Setup
-
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
-
-## Customize configuration
-
-See [Vite Configuration Reference](https://vitejs.dev/config/).
 
 ## Project Setup
 
+First, clone the repository and install the dependencies:
+
 ```sh
+git clone your-repository-url
+cd your-project-name
 npm install
 ```
 
-### Compile and Hot-Reload for Development
+### Running the Application
+To run the application in development mode with hot-reload enabled, execute:
+
 
 ```sh
 npm run dev
 ```
 
-### Compile and Minify for Production
+## Features of the Todo List App
 
-```sh
-npm run build
-```
-# todo-app
+- **Add Tasks**: Users can add new tasks with titles and descriptions.
+- **Delete Tasks**: Each task can be removed.
+- **Mark Tasks as Done**: Tasks can be marked as completed, allowing users to track their progress.
+- **Task Visibility Toggle**: Users can toggle the visibility of completed tasks to focus on what's active.
+- **Interactive Task Selection**: Clicking on a task opens it in a side panel while keeping the main task list visible.
+- **Persistent Task State**: The state of tasks, including which task is open in the side panel, persists even after the page is refreshed.
